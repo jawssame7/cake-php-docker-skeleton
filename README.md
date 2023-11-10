@@ -42,6 +42,13 @@
          ->putenv()
          ->toEnv()
          ->toServer();
-}
+    }
    ```
-3. サイトにアクセスして、WelcomeページのDatabaseの欄が「CakePHP is able to connect to the database.」となっていれば接続OK
+4. サイトにアクセスして、WelcomeページのDatabaseの欄が「CakePHP is able to connect to the database.」となっていれば接続OK
+
+___
+
+#### 参考
+
+> https://tt-computing.com/cake5-docker-shellscript
+> https://zenn.dev/neko_ningen/articles/b68b40ec92c795
